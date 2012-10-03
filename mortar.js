@@ -1,4 +1,14 @@
-// mortar jquery plugin
+/**
+ * jQuery Mortar Plugin v1.0
+ *
+ *
+ * Copyright (c) 2012 Jamie Weber
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
 (function( $ ){
 	$.fn.mortar = function( options ) {
 		var defaults = {
@@ -9,7 +19,7 @@
 			'mortarHeight'	: 10			
 		};
         
-		var options = $.extend(defaults, options);	
+		var options = $.extend(defaults, options);
 		// Get the container's inner height, children, and number of children
 		var containerHeight    = this.innerHeight(),
 			containerWidth 	   = 0,
