@@ -1,4 +1,4 @@
-// bzzd mortar jquery plugin
+// mortar jquery plugin
 (function( $ ){
 	$.fn.mortar = function( options ) {
 		var defaults = {
